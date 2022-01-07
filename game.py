@@ -18,7 +18,7 @@ blue = (0,0,255)
 white = (255,255,255)
 black = (0,0,0)
 
-bg = pygame.image.load('back.jpeg')
+bg = pygame.image.load('bg.jpg')
 bg = pygame.transform.scale(bg,(1200, 600))
 
 snake_circle = 17
