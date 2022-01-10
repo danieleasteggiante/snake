@@ -117,6 +117,7 @@ def gameloop():
 
         
         my_snake.insert(0, [x1,y1])
+        my_snake = my_snake[0:lenght_snake]
 
         draw_snake(lenght_snake, my_snake)
         for i in range(1,len(my_snake)):
@@ -136,6 +137,5 @@ def gameloop():
         clock.tick(snake_speed)
 
     pygame.quit()
-    quit()
 
 gameloop()
